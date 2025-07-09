@@ -1,0 +1,1745 @@
+17:27:16.863 [main] INFO  com.api.listners.Testlistners - Test Suite Started !!
+17:27:16.974 [main] INFO  com.api.listners.Testlistners - Started !!createAccountTest
+17:27:16.975 [main] INFO  com.api.listners.Testlistners - Description Verify if Login API is working...
+17:27:21.159 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+17:27:21.161 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2007","password":"nigam1234","email":"nigam2007@gmail.com","firstName":"nigam2007","lastName":"anand","mobileNumber":"5182930702"}
+17:27:21.173 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+17:27:24.570 [main] ERROR com.api.listners.Testlistners - Failed !!createAccountTest
+17:27:24.576 [main] INFO  com.api.listners.Testlistners - Started !!addAddressToUserTest
+17:27:24.576 [main] INFO  com.api.listners.Testlistners - Description
+17:27:24.601 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+17:27:24.601 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2007","password":"nigam1234"}
+17:27:24.602 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+17:27:26.853 [main] ERROR com.api.listners.Testlistners - Failed !!addAddressToUserTest
+17:27:26.854 [main] INFO  com.api.listners.Testlistners - Started !!updateProfileTest
+17:27:26.855 [main] INFO  com.api.listners.Testlistners - Description
+17:27:26.866 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+17:27:26.866 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2007","password":"nigam1234"}
+17:27:26.867 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+17:27:29.121 [main] ERROR com.api.listners.Testlistners - Failed !!updateProfileTest
+17:27:29.123 [main] INFO  com.api.listners.Testlistners - Started !!GetProfileInfoTest
+17:27:29.123 [main] INFO  com.api.listners.Testlistners - Description
+17:27:29.139 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+17:27:29.139 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2007","password":"nigam1234"}
+17:27:29.139 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+17:27:31.386 [main] ERROR com.api.listners.Testlistners - Failed !!GetProfileInfoTest
+17:27:31.552 [main] INFO  com.api.listners.Testlistners - Test Suite Completed !!
+21:06:21.664 [main] INFO  com.api.listners.Testlistners - Test Suite Started !!
+21:06:21.739 [main] INFO  com.api.listners.Testlistners - Started !!createAccountTest
+21:06:21.739 [main] INFO  com.api.listners.Testlistners - Description Verify if Login API is working...
+21:06:23.804 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+21:06:23.804 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2007","password":"nigam1234","email":"nigam2007@gmail.com","firstName":"nigam2007","lastName":"anand","mobileNumber":"5182930702"}
+21:06:23.804 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+21:06:25.074 [main] INFO  com.api.filters.LoggingFilter - 200
+21:06:25.074 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@8a6631b
+21:06:25.074 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=29
+Date=Sat, 05 Jul 2025 15:36:25 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:06:25.089 [main] INFO  com.api.listners.Testlistners - Passed !!createAccountTest
+21:06:25.105 [main] INFO  com.api.listners.Testlistners - Started !!addAddressToUserTest
+21:06:25.105 [main] INFO  com.api.listners.Testlistners - Description
+21:06:25.127 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+21:06:25.127 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2007","password":"nigam1234"}
+21:06:25.127 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+21:06:25.343 [main] INFO  com.api.filters.LoggingFilter - 200
+21:06:25.343 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@5d7d8613
+21:06:25.343 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 15:36:25 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:06:25.454 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+21:06:25.454 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+21:06:25.454 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDciLCJpYXQiOjE3NTE3Mjk3ODUsImV4cCI6MTc1MTczMzM4NX0.gQZ0zvIE02rC2ksKMIUlxlwLajFjHDtDZ6EQ0IyO_mI
+Accept=*/*
+21:06:25.676 [main] INFO  com.api.filters.LoggingFilter - 200
+21:06:25.676 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@6b321262
+21:06:25.676 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 15:36:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:06:25.676 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+21:06:25.676 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"firstName":"nigam2007","lastName":"anand1234","email":"nigam2007@gmail.com","mobileNumber":"9999999999","address":"Bhubaneswar"}
+21:06:25.676 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDciLCJpYXQiOjE3NTE3Mjk3ODUsImV4cCI6MTc1MTczMzM4NX0.gQZ0zvIE02rC2ksKMIUlxlwLajFjHDtDZ6EQ0IyO_mI
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDciLCJpYXQiOjE3NTE3Mjk3ODUsImV4cCI6MTc1MTczMzM4NX0.gQZ0zvIE02rC2ksKMIUlxlwLajFjHDtDZ6EQ0IyO_mI
+Content-Type=application/json
+21:06:25.838 [main] INFO  com.api.filters.LoggingFilter - 200
+21:06:25.838 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@b4732dc
+21:06:25.838 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 15:36:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:06:25.838 [main] INFO  com.api.listners.Testlistners - Passed !!addAddressToUserTest
+21:06:25.838 [main] INFO  com.api.listners.Testlistners - Started !!updateProfileTest
+21:06:25.838 [main] INFO  com.api.listners.Testlistners - Description
+21:06:25.838 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+21:06:25.838 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2007","password":"nigam1234"}
+21:06:25.838 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+21:06:26.008 [main] INFO  com.api.filters.LoggingFilter - 200
+21:06:26.008 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@61191222
+21:06:26.008 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 15:36:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:06:26.024 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+21:06:26.024 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+21:06:26.024 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDciLCJpYXQiOjE3NTE3Mjk3ODYsImV4cCI6MTc1MTczMzM4Nn0.PlpG4cn3-BhoNi2L9qdWieXdjsxWCH3z4WUV1kbUTjo
+Accept=*/*
+21:06:26.135 [main] INFO  com.api.filters.LoggingFilter - 200
+21:06:26.135 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@6c977dcf
+21:06:26.135 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 15:36:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:06:26.139 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+21:06:26.139 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"firstName":"nigam2007","lastName":"anand1234","email":"nigam2007@gmail.com","mobileNumber":"9999999999"}
+21:06:26.139 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDciLCJpYXQiOjE3NTE3Mjk3ODYsImV4cCI6MTc1MTczMzM4Nn0.PlpG4cn3-BhoNi2L9qdWieXdjsxWCH3z4WUV1kbUTjo
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDciLCJpYXQiOjE3NTE3Mjk3ODYsImV4cCI6MTc1MTczMzM4Nn0.PlpG4cn3-BhoNi2L9qdWieXdjsxWCH3z4WUV1kbUTjo
+Content-Type=application/json
+21:06:26.246 [main] INFO  com.api.filters.LoggingFilter - 200
+21:06:26.246 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@3fcbc766
+21:06:26.246 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 15:36:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:06:26.246 [main] INFO  com.api.listners.Testlistners - Passed !!updateProfileTest
+21:06:26.262 [main] INFO  com.api.listners.Testlistners - Started !!GetProfileInfoTest
+21:06:26.262 [main] INFO  com.api.listners.Testlistners - Description
+21:06:26.262 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+21:06:26.262 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2007","password":"nigam1234"}
+21:06:26.262 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+21:06:26.436 [main] INFO  com.api.filters.LoggingFilter - 200
+21:06:26.440 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@1e3f0aea
+21:06:26.440 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 15:36:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:06:26.440 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+21:06:26.440 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+21:06:26.440 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDciLCJpYXQiOjE3NTE3Mjk3ODYsImV4cCI6MTc1MTczMzM4Nn0.PlpG4cn3-BhoNi2L9qdWieXdjsxWCH3z4WUV1kbUTjo
+Accept=*/*
+21:06:26.547 [main] INFO  com.api.filters.LoggingFilter - 200
+21:06:26.547 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@2e71240b
+21:06:26.547 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 15:36:27 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:06:26.547 [main] INFO  com.api.listners.Testlistners - Passed !!GetProfileInfoTest
+21:06:26.563 [main] INFO  com.api.listners.Testlistners - Test Suite Completed !!
+00:28:09.880 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+00:28:09.886 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2007","password":"nigam1234"}
+00:28:09.887 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+00:28:10.867 [main] INFO  com.api.filters.LoggingFilter - 200
+00:28:10.868 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@1cc8416a
+00:28:10.869 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 18:58:11 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:28:10.944 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+00:28:10.944 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+00:28:10.944 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDciLCJpYXQiOjE3NTE3NDE4OTEsImV4cCI6MTc1MTc0NTQ5MX0.EZnL9L-gRQILzWmxwqnyeQEo36op2fGN_IpDO7lFA88
+Accept=*/*
+00:28:11.091 [main] INFO  com.api.filters.LoggingFilter - 200
+00:28:11.092 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@6661d8c0
+00:28:11.092 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 18:58:11 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:14:13.579 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:14:13.585 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2007","password":"nigam1234"}
+01:14:13.586 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:14:14.423 [main] INFO  com.api.filters.LoggingFilter - 200
+01:14:14.423 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@2251b3bc
+01:14:14.423 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:44:14 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:14:14.479 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:14:14.479 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+01:14:14.479 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDciLCJpYXQiOjE3NTE3NDQ2NTQsImV4cCI6MTc1MTc0ODI1NH0.2x1AlaIWl4lZuo99kW8_IAL--SzEUBjJ5ZhY412yQ4U
+Accept=*/*
+01:14:14.627 [main] INFO  com.api.filters.LoggingFilter - 200
+01:14:14.627 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@77b3752b
+01:14:14.627 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:44:15 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:19:31.089 [main] INFO  com.api.listners.Testlistners - Test Suite Started !!
+01:19:31.175 [main] INFO  com.api.listners.Testlistners - Started !!createAccountTest
+01:19:31.175 [main] INFO  com.api.listners.Testlistners - Description Verify if Login API is working...
+01:19:32.699 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:19:32.700 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2008","password":"nigam2008","email":"nigam2008","firstName":"nigam2008","lastName":"nigam2008","mobileNumber":"nigam2008"}
+01:19:32.701 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:19:33.548 [main] INFO  com.api.filters.LoggingFilter - 500
+01:19:33.548 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@49433c98
+01:19:33.549 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:49:34 GMT
+Connection=close
+01:19:33.624 [main] ERROR com.api.listners.Testlistners - Failed !!createAccountTest
+01:19:33.630 [main] INFO  com.api.listners.Testlistners - Started !!addAddressToUserTest
+01:19:33.630 [main] INFO  com.api.listners.Testlistners - Description
+01:19:33.653 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:19:33.653 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2008","password":"nigam2008"}
+01:19:33.654 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:19:33.862 [main] INFO  com.api.filters.LoggingFilter - 401
+01:19:33.862 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@6661d8c0
+01:19:33.863 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:49:34 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:19:33.939 [main] ERROR com.api.listners.Testlistners - Failed !!addAddressToUserTest
+01:19:33.941 [main] INFO  com.api.listners.Testlistners - Started !!updateProfileTest
+01:19:33.942 [main] INFO  com.api.listners.Testlistners - Description
+01:19:33.957 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:19:33.957 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2008","password":"nigam1234"}
+01:19:33.957 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:19:34.144 [main] INFO  com.api.filters.LoggingFilter - 401
+01:19:34.145 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@2443abd6
+01:19:34.145 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:49:34 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:19:34.148 [main] ERROR com.api.listners.Testlistners - Failed !!updateProfileTest
+01:19:34.151 [main] INFO  com.api.listners.Testlistners - Started !!GetProfileInfoTest
+01:19:34.151 [main] INFO  com.api.listners.Testlistners - Description
+01:19:34.165 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:19:34.166 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2008","password":"nigam1234"}
+01:19:34.166 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:19:34.350 [main] INFO  com.api.filters.LoggingFilter - 401
+01:19:34.350 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@681c0ae6
+01:19:34.350 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:49:34 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:19:34.356 [main] ERROR com.api.listners.Testlistners - Failed !!GetProfileInfoTest
+01:19:34.417 [main] INFO  com.api.listners.Testlistners - Test Suite Completed !!
+01:20:14.737 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:20:14.742 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2008","password":"nigam1234"}
+01:20:14.743 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:20:15.557 [main] INFO  com.api.filters.LoggingFilter - 401
+01:20:15.558 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@18dd5ed3
+01:20:15.558 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:50:16 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:21:17.713 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:21:17.717 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2007","password":"nigam1234"}
+01:21:17.718 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:21:18.564 [main] INFO  com.api.filters.LoggingFilter - 200
+01:21:18.564 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@61ff6a49
+01:21:18.564 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:51:19 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:21:18.637 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:21:18.637 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+01:21:18.637 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDciLCJpYXQiOjE3NTE3NDUwNzksImV4cCI6MTc1MTc0ODY3OX0.xecOx5Z1TZj1sVBaoRi1nhygCM_7LH_QHPQSMdRNvmQ
+Accept=*/*
+01:21:18.750 [main] INFO  com.api.filters.LoggingFilter - 200
+01:21:18.750 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@357bc488
+01:21:18.750 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:51:19 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:23:53.616 [main] INFO  com.api.listners.Testlistners - Test Suite Started !!
+01:23:53.681 [main] INFO  com.api.listners.Testlistners - Started !!createAccountTest
+01:23:53.681 [main] INFO  com.api.listners.Testlistners - Description Verify if Login API is working...
+01:23:55.324 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:23:55.325 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2008","password":"nigam1234","email":"nigam2008@gmail.com","firstName":"nigam2008","lastName":"anand","mobileNumber":"5182930702"}
+01:23:55.326 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:23:56.191 [main] INFO  com.api.filters.LoggingFilter - 200
+01:23:56.192 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@1983b48a
+01:23:56.192 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=29
+Date=Sat, 05 Jul 2025 19:53:56 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:23:56.215 [main] INFO  com.api.listners.Testlistners - Passed !!createAccountTest
+01:23:56.218 [main] INFO  com.api.listners.Testlistners - Started !!addAddressToUserTest
+01:23:56.219 [main] INFO  com.api.listners.Testlistners - Description
+01:23:56.228 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:23:56.229 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2008","password":"nigam1234"}
+01:23:56.229 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:23:56.407 [main] INFO  com.api.filters.LoggingFilter - 200
+01:23:56.408 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@1c61eda5
+01:23:56.408 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:53:56 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:23:56.467 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:23:56.467 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+01:23:56.468 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDgiLCJpYXQiOjE3NTE3NDUyMzYsImV4cCI6MTc1MTc0ODgzNn0.9nhc1W0pfU9vltESy3iPSTdPrTfpK9ax6DTWbgxSV4s
+Accept=*/*
+01:23:56.614 [main] INFO  com.api.filters.LoggingFilter - 200
+01:23:56.614 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@7459a21e
+01:23:56.614 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:53:57 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:23:56.627 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:23:56.627 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"firstName":"nigam2008","lastName":"anand","email":"nigam2008@gmail.com","mobileNumber":"5182930702","address":null}
+01:23:56.627 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDgiLCJpYXQiOjE3NTE3NDUyMzYsImV4cCI6MTc1MTc0ODgzNn0.9nhc1W0pfU9vltESy3iPSTdPrTfpK9ax6DTWbgxSV4s
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDgiLCJpYXQiOjE3NTE3NDUyMzYsImV4cCI6MTc1MTc0ODgzNn0.9nhc1W0pfU9vltESy3iPSTdPrTfpK9ax6DTWbgxSV4s
+Content-Type=application/json
+01:23:56.733 [main] INFO  com.api.filters.LoggingFilter - 200
+01:23:56.733 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@70716259
+01:23:56.733 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:53:57 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:23:56.735 [main] INFO  com.api.listners.Testlistners - Passed !!addAddressToUserTest
+01:23:56.737 [main] INFO  com.api.listners.Testlistners - Started !!updateProfileTest
+01:23:56.737 [main] INFO  com.api.listners.Testlistners - Description
+01:23:56.741 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:23:56.742 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2008","password":"nigam1234"}
+01:23:56.742 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:23:56.910 [main] INFO  com.api.filters.LoggingFilter - 200
+01:23:56.910 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@f613067
+01:23:56.910 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:53:57 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:23:56.916 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:23:56.916 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+01:23:56.916 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDgiLCJpYXQiOjE3NTE3NDUyMzcsImV4cCI6MTc1MTc0ODgzN30.ri6H2moR46fAiBRFBG3iwY_LmWeNGjpclXkrGH0dXB0
+Accept=*/*
+01:23:57.022 [main] INFO  com.api.filters.LoggingFilter - 200
+01:23:57.022 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@c2df90e
+01:23:57.022 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:53:57 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:23:57.033 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:23:57.034 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"firstName":"nigam2008","lastName":"anand","email":"nigam2008@gmail.com","mobileNumber":null}
+01:23:57.034 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDgiLCJpYXQiOjE3NTE3NDUyMzcsImV4cCI6MTc1MTc0ODgzN30.ri6H2moR46fAiBRFBG3iwY_LmWeNGjpclXkrGH0dXB0
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDgiLCJpYXQiOjE3NTE3NDUyMzcsImV4cCI6MTc1MTc0ODgzN30.ri6H2moR46fAiBRFBG3iwY_LmWeNGjpclXkrGH0dXB0
+Content-Type=application/json
+01:23:57.179 [main] INFO  com.api.filters.LoggingFilter - 500
+01:23:57.180 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@59303963
+01:23:57.180 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:53:57 GMT
+Connection=close
+01:23:57.188 [main] ERROR com.api.listners.Testlistners - Failed !!updateProfileTest
+01:23:57.189 [main] INFO  com.api.listners.Testlistners - Started !!GetProfileInfoTest
+01:23:57.190 [main] INFO  com.api.listners.Testlistners - Description
+01:23:57.197 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:23:57.199 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2008","password":"nigam1234"}
+01:23:57.199 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:23:57.380 [main] INFO  com.api.filters.LoggingFilter - 200
+01:23:57.380 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@629e8212
+01:23:57.380 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:53:57 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:23:57.388 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:23:57.388 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+01:23:57.388 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDgiLCJpYXQiOjE3NTE3NDUyMzcsImV4cCI6MTc1MTc0ODgzN30.ri6H2moR46fAiBRFBG3iwY_LmWeNGjpclXkrGH0dXB0
+Accept=*/*
+01:23:57.513 [main] INFO  com.api.filters.LoggingFilter - 200
+01:23:57.513 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@43da0955
+01:23:57.513 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:53:58 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:23:57.516 [main] INFO  com.api.listners.Testlistners - Passed !!GetProfileInfoTest
+01:23:57.552 [main] INFO  com.api.listners.Testlistners - Test Suite Completed !!
+01:26:34.156 [main] INFO  com.api.listners.Testlistners - Test Suite Started !!
+01:26:34.202 [main] INFO  com.api.listners.Testlistners - Started !!updateProfileTest
+01:26:34.203 [main] INFO  com.api.listners.Testlistners - Description
+01:26:35.750 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:26:35.750 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2008","password":"nigam1234"}
+01:26:35.752 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:26:36.664 [main] INFO  com.api.filters.LoggingFilter - 200
+01:26:36.664 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@5f8d9767
+01:26:36.664 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:56:37 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:26:36.734 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:26:36.734 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+01:26:36.735 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDgiLCJpYXQiOjE3NTE3NDUzOTcsImV4cCI6MTc1MTc0ODk5N30.uBcfM_Hz5H--n1P25KTDMtOFepRJ3YGDiDTIWFpIR0k
+Accept=*/*
+01:26:36.863 [main] INFO  com.api.filters.LoggingFilter - 200
+01:26:36.863 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@543d5863
+01:26:36.864 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:56:37 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:26:36.913 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:26:36.914 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"firstName":"nigam2008","lastName":"anand","email":"nigam2008@gmail.com","mobileNumber":null}
+01:26:36.914 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDgiLCJpYXQiOjE3NTE3NDUzOTcsImV4cCI6MTc1MTc0ODk5N30.uBcfM_Hz5H--n1P25KTDMtOFepRJ3YGDiDTIWFpIR0k
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDgiLCJpYXQiOjE3NTE3NDUzOTcsImV4cCI6MTc1MTc0ODk5N30.uBcfM_Hz5H--n1P25KTDMtOFepRJ3YGDiDTIWFpIR0k
+Content-Type=application/json
+01:26:37.060 [main] INFO  com.api.filters.LoggingFilter - 500
+01:26:37.060 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@335f5c69
+01:26:37.060 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:56:37 GMT
+Connection=close
+01:26:37.081 [main] ERROR com.api.listners.Testlistners - Failed !!updateProfileTest
+01:26:37.151 [main] INFO  com.api.listners.Testlistners - Test Suite Completed !!
+01:27:23.924 [main] INFO  com.api.listners.Testlistners - Test Suite Started !!
+01:27:23.987 [main] INFO  com.api.listners.Testlistners - Started !!updateProfileTest
+01:27:23.987 [main] INFO  com.api.listners.Testlistners - Description
+01:27:25.700 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:27:25.701 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2008","password":"nigam1234"}
+01:27:25.703 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:27:26.851 [main] INFO  com.api.filters.LoggingFilter - 200
+01:27:26.851 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@2287395
+01:27:26.851 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:57:27 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:27:26.913 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:27:26.914 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+01:27:26.914 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDgiLCJpYXQiOjE3NTE3NDU0NDcsImV4cCI6MTc1MTc0OTA0N30.nG7zInaW0t79bVp8aoN8k1SiDaWJocDViCk_C6Lk--U
+Accept=*/*
+01:27:27.031 [main] INFO  com.api.filters.LoggingFilter - 200
+01:27:27.032 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@2c0c4c0a
+01:27:27.032 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:57:27 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:27:27.073 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:27:27.073 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"firstName":"Nigam2009","lastName":"anand","email":"nigam2008@gmail.com","mobileNumber":"5182930702"}
+01:27:27.073 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDgiLCJpYXQiOjE3NTE3NDU0NDcsImV4cCI6MTc1MTc0OTA0N30.nG7zInaW0t79bVp8aoN8k1SiDaWJocDViCk_C6Lk--U
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDgiLCJpYXQiOjE3NTE3NDU0NDcsImV4cCI6MTc1MTc0OTA0N30.nG7zInaW0t79bVp8aoN8k1SiDaWJocDViCk_C6Lk--U
+Content-Type=application/json
+01:27:27.205 [main] INFO  com.api.filters.LoggingFilter - 200
+01:27:27.206 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@43245559
+01:27:27.206 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:57:27 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:27:27.212 [main] INFO  com.api.listners.Testlistners - Passed !!updateProfileTest
+01:27:27.252 [main] INFO  com.api.listners.Testlistners - Test Suite Completed !!
+01:27:54.671 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:27:54.680 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2008","password":"nigam1234"}
+01:27:54.681 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:27:55.899 [main] INFO  com.api.filters.LoggingFilter - 200
+01:27:55.899 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@61a2aeb7
+01:27:55.900 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:57:56 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:27:56.061 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:27:56.061 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+01:27:56.062 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMDgiLCJpYXQiOjE3NTE3NDU0NzYsImV4cCI6MTc1MTc0OTA3Nn0.-Cm3miy5hM3oJBNFnuaqy0LJ15t4lpO1XOav-a_kjkE
+Accept=*/*
+01:27:56.234 [main] INFO  com.api.filters.LoggingFilter - 200
+01:27:56.234 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@611b35d6
+01:27:56.234 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:57:56 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:29:35.261 [main] INFO  com.api.listners.Testlistners - Test Suite Started !!
+01:29:35.331 [main] INFO  com.api.listners.Testlistners - Started !!createAccountTest
+01:29:35.331 [main] INFO  com.api.listners.Testlistners - Description Verify if Login API is working...
+01:29:37.217 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:29:37.218 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2010","password":"nigam1234","email":"nigam2010@gmail.com","firstName":"nigam2010","lastName":"anand","mobileNumber":"5182930702"}
+01:29:37.221 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:29:38.283 [main] INFO  com.api.filters.LoggingFilter - 200
+01:29:38.283 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@49433c98
+01:29:38.283 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=29
+Date=Sat, 05 Jul 2025 19:59:38 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:29:38.310 [main] INFO  com.api.listners.Testlistners - Passed !!createAccountTest
+01:29:38.315 [main] INFO  com.api.listners.Testlistners - Started !!addAddressToUserTest
+01:29:38.316 [main] INFO  com.api.listners.Testlistners - Description
+01:29:38.326 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:29:38.326 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2010","password":"nigam1234"}
+01:29:38.326 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:29:38.499 [main] INFO  com.api.filters.LoggingFilter - 200
+01:29:38.499 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@58f2466c
+01:29:38.499 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:59:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:29:38.569 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:29:38.569 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+01:29:38.569 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTAiLCJpYXQiOjE3NTE3NDU1NzksImV4cCI6MTc1MTc0OTE3OX0.OXNc464m9mFzGjRvA8v34Fxt5L0MEZ8Htcd9CNtMJT0
+Accept=*/*
+01:29:38.688 [main] INFO  com.api.filters.LoggingFilter - 200
+01:29:38.688 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@1c30cb85
+01:29:38.688 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:59:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:29:38.704 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:29:38.705 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"firstName":"nigam2010","lastName":"anand","email":"nigam2010@gmail.com","mobileNumber":"5182930702","address":null}
+01:29:38.705 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTAiLCJpYXQiOjE3NTE3NDU1NzksImV4cCI6MTc1MTc0OTE3OX0.OXNc464m9mFzGjRvA8v34Fxt5L0MEZ8Htcd9CNtMJT0
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTAiLCJpYXQiOjE3NTE3NDU1NzksImV4cCI6MTc1MTc0OTE3OX0.OXNc464m9mFzGjRvA8v34Fxt5L0MEZ8Htcd9CNtMJT0
+Content-Type=application/json
+01:29:38.810 [main] INFO  com.api.filters.LoggingFilter - 200
+01:29:38.811 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@54af3cb9
+01:29:38.811 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:59:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:29:38.814 [main] INFO  com.api.listners.Testlistners - Passed !!addAddressToUserTest
+01:29:38.815 [main] INFO  com.api.listners.Testlistners - Started !!updateProfileTest
+01:29:38.816 [main] INFO  com.api.listners.Testlistners - Description
+01:29:38.831 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:29:38.831 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2010","password":"nigam1234"}
+01:29:38.831 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:29:39.017 [main] INFO  com.api.filters.LoggingFilter - 200
+01:29:39.017 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@db99785
+01:29:39.017 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:59:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:29:39.025 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:29:39.025 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+01:29:39.025 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTAiLCJpYXQiOjE3NTE3NDU1NzksImV4cCI6MTc1MTc0OTE3OX0.OXNc464m9mFzGjRvA8v34Fxt5L0MEZ8Htcd9CNtMJT0
+Accept=*/*
+01:29:39.126 [main] INFO  com.api.filters.LoggingFilter - 200
+01:29:39.126 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@226de93c
+01:29:39.126 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:59:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:29:39.140 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:29:39.140 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"firstName":"nigam2010","lastName":"anand","email":"nigam2010@gmail.com","mobileNumber":"9999999999"}
+01:29:39.140 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTAiLCJpYXQiOjE3NTE3NDU1NzksImV4cCI6MTc1MTc0OTE3OX0.OXNc464m9mFzGjRvA8v34Fxt5L0MEZ8Htcd9CNtMJT0
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTAiLCJpYXQiOjE3NTE3NDU1NzksImV4cCI6MTc1MTc0OTE3OX0.OXNc464m9mFzGjRvA8v34Fxt5L0MEZ8Htcd9CNtMJT0
+Content-Type=application/json
+01:29:39.243 [main] INFO  com.api.filters.LoggingFilter - 200
+01:29:39.243 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@41f3aaf1
+01:29:39.243 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:59:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:29:39.246 [main] INFO  com.api.listners.Testlistners - Passed !!updateProfileTest
+01:29:39.249 [main] INFO  com.api.listners.Testlistners - Started !!GetProfileInfoTest
+01:29:39.249 [main] INFO  com.api.listners.Testlistners - Description
+01:29:39.255 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:29:39.255 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2010","password":"nigam1234"}
+01:29:39.255 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:29:39.427 [main] INFO  com.api.filters.LoggingFilter - 200
+01:29:39.427 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@76437e9b
+01:29:39.427 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:59:40 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:29:39.437 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:29:39.438 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+01:29:39.438 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTAiLCJpYXQiOjE3NTE3NDU1ODAsImV4cCI6MTc1MTc0OTE4MH0.8UUcFdP86CJOSPE0NW6SDOsFTHCbFJ_ujWygkT7VnK8
+Accept=*/*
+01:29:39.542 [main] INFO  com.api.filters.LoggingFilter - 200
+01:29:39.542 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@63bfdbcb
+01:29:39.542 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 19:59:40 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:29:39.545 [main] INFO  com.api.listners.Testlistners - Passed !!GetProfileInfoTest
+01:29:39.578 [main] INFO  com.api.listners.Testlistners - Test Suite Completed !!
+01:30:52.344 [main] INFO  com.api.listners.Testlistners - Test Suite Started !!
+01:30:52.407 [main] INFO  com.api.listners.Testlistners - Started !!createAccountTest
+01:30:52.407 [main] INFO  com.api.listners.Testlistners - Description Verify if Login API is working...
+01:30:55.096 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:30:55.096 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2011","password":"nigam1234","email":"nigam2011@gmail.com","firstName":"nigam2011","lastName":"anand","mobileNumber":"5182930702"}
+01:30:55.096 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:30:56.551 [main] INFO  com.api.filters.LoggingFilter - 200
+01:30:56.551 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@2a8a3ada
+01:30:56.551 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=29
+Date=Sat, 05 Jul 2025 20:00:57 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:30:56.584 [main] INFO  com.api.listners.Testlistners - Passed !!createAccountTest
+01:30:56.599 [main] INFO  com.api.listners.Testlistners - Started !!addAddressToUserTest
+01:30:56.599 [main] INFO  com.api.listners.Testlistners - Description
+01:30:56.615 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:30:56.615 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2011","password":"nigam1234"}
+01:30:56.631 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:30:56.820 [main] INFO  com.api.filters.LoggingFilter - 200
+01:30:56.820 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@15d0d6c9
+01:30:56.820 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 20:00:57 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:30:56.962 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:30:56.962 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+01:30:56.962 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTEiLCJpYXQiOjE3NTE3NDU2NTcsImV4cCI6MTc1MTc0OTI1N30.Q7k1eb--X95edx2KvudM0jUn07TPGxaBgi9zTVtAs1Y
+Accept=*/*
+01:30:57.119 [main] INFO  com.api.filters.LoggingFilter - 200
+01:30:57.119 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@5d05f453
+01:30:57.119 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 20:00:57 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:30:57.135 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:30:57.135 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"firstName":"nigam2011","lastName":"anand","email":"nigam2011@gmail.com","mobileNumber":"5182930702","address":null}
+01:30:57.135 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTEiLCJpYXQiOjE3NTE3NDU2NTcsImV4cCI6MTc1MTc0OTI1N30.Q7k1eb--X95edx2KvudM0jUn07TPGxaBgi9zTVtAs1Y
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTEiLCJpYXQiOjE3NTE3NDU2NTcsImV4cCI6MTc1MTc0OTI1N30.Q7k1eb--X95edx2KvudM0jUn07TPGxaBgi9zTVtAs1Y
+Content-Type=application/json
+01:30:57.246 [main] INFO  com.api.filters.LoggingFilter - 200
+01:30:57.246 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@733fb462
+01:30:57.246 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 20:00:57 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:30:57.246 [main] INFO  com.api.listners.Testlistners - Passed !!addAddressToUserTest
+01:30:57.246 [main] INFO  com.api.listners.Testlistners - Started !!updateProfileTest
+01:30:57.246 [main] INFO  com.api.listners.Testlistners - Description
+01:30:57.261 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:30:57.261 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2011","password":"nigam1234"}
+01:30:57.261 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:30:57.435 [main] INFO  com.api.filters.LoggingFilter - 200
+01:30:57.435 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@392781e
+01:30:57.435 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 20:00:58 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:30:57.435 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:30:57.435 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+01:30:57.435 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTEiLCJpYXQiOjE3NTE3NDU2NTgsImV4cCI6MTc1MTc0OTI1OH0.oyEtc1cUA0NLEmEpEfLkvuqTQazysqBAa3JwOoAyaXc
+Accept=*/*
+01:30:57.546 [main] INFO  com.api.filters.LoggingFilter - 200
+01:30:57.546 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@5fdfe8cf
+01:30:57.546 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 20:00:58 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:30:57.562 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:30:57.562 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"firstName":"nigam2011","lastName":"anand","email":"nigam2011@gmail.com","mobileNumber":"9999999999"}
+01:30:57.562 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTEiLCJpYXQiOjE3NTE3NDU2NTgsImV4cCI6MTc1MTc0OTI1OH0.oyEtc1cUA0NLEmEpEfLkvuqTQazysqBAa3JwOoAyaXc
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTEiLCJpYXQiOjE3NTE3NDU2NTgsImV4cCI6MTc1MTc0OTI1OH0.oyEtc1cUA0NLEmEpEfLkvuqTQazysqBAa3JwOoAyaXc
+Content-Type=application/json
+01:30:57.688 [main] INFO  com.api.filters.LoggingFilter - 200
+01:30:57.688 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@4bf80c29
+01:30:57.688 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 20:00:58 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:30:57.688 [main] INFO  com.api.listners.Testlistners - Passed !!updateProfileTest
+01:30:57.688 [main] INFO  com.api.listners.Testlistners - Started !!GetProfileInfoTest
+01:30:57.688 [main] INFO  com.api.listners.Testlistners - Description
+01:30:57.688 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:30:57.688 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2011","password":"nigam1234"}
+01:30:57.688 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+01:30:57.878 [main] INFO  com.api.filters.LoggingFilter - 200
+01:30:57.886 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@2ce03e86
+01:30:57.886 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 20:00:58 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:30:57.886 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+01:30:57.886 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+01:30:57.886 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTEiLCJpYXQiOjE3NTE3NDU2NTgsImV4cCI6MTc1MTc0OTI1OH0.oyEtc1cUA0NLEmEpEfLkvuqTQazysqBAa3JwOoAyaXc
+Accept=*/*
+01:30:57.989 [main] INFO  com.api.filters.LoggingFilter - 200
+01:30:57.989 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@1e12a5a6
+01:30:57.989 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 05 Jul 2025 20:00:58 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:30:57.989 [main] INFO  com.api.listners.Testlistners - Passed !!GetProfileInfoTest
+01:30:58.020 [main] INFO  com.api.listners.Testlistners - Test Suite Completed !!
+04:40:20.794 [main] INFO  com.api.listners.Testlistners - Test Suite Started !!
+04:40:21.059 [main] INFO  com.api.listners.Testlistners - Started !!createAccountTest
+04:40:21.060 [main] INFO  com.api.listners.Testlistners - Description Verify if Login API is working...
+04:40:26.520 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+04:40:26.521 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2012","password":"nigam1234","email":"nigam2012@gmail.com","firstName":"nigam2012","lastName":"anand","mobileNumber":"5182930702"}
+04:40:26.523 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+04:40:28.407 [main] INFO  com.api.filters.LoggingFilter - 200
+04:40:28.408 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@49a24ebe
+04:40:28.409 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=29
+Date=Tue, 08 Jul 2025 23:10:27 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+04:40:28.475 [main] INFO  com.api.listners.Testlistners - Passed !!createAccountTest
+04:40:28.490 [main] INFO  com.api.listners.Testlistners - Started !!addAddressToUserTest
+04:40:28.490 [main] INFO  com.api.listners.Testlistners - Description
+04:40:28.521 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+04:40:28.521 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2012","password":"nigam1234"}
+04:40:28.521 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+04:40:28.738 [main] INFO  com.api.filters.LoggingFilter - 200
+04:40:28.738 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@3bd806eb
+04:40:28.738 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 08 Jul 2025 23:10:27 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+04:40:29.004 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+04:40:29.005 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+04:40:29.005 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTIiLCJpYXQiOjE3NTIwMTYyMjcsImV4cCI6MTc1MjAxOTgyN30.8PYs2neFxaDbenzcQ5BRXaBAKL8ulNCkVLiejVB059I
+Accept=*/*
+04:40:29.202 [main] INFO  com.api.filters.LoggingFilter - 200
+04:40:29.204 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@4c9c9ad1
+04:40:29.204 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 08 Jul 2025 23:10:28 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+04:40:29.266 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+04:40:29.266 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"firstName":"nigam2012","lastName":"anand","email":"nigam2012@gmail.com","mobileNumber":"5182930702","address":null}
+04:40:29.266 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTIiLCJpYXQiOjE3NTIwMTYyMjcsImV4cCI6MTc1MjAxOTgyN30.8PYs2neFxaDbenzcQ5BRXaBAKL8ulNCkVLiejVB059I
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTIiLCJpYXQiOjE3NTIwMTYyMjcsImV4cCI6MTc1MjAxOTgyN30.8PYs2neFxaDbenzcQ5BRXaBAKL8ulNCkVLiejVB059I
+Content-Type=application/json
+04:40:29.456 [main] INFO  com.api.filters.LoggingFilter - 200
+04:40:29.456 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@5583419
+04:40:29.456 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 08 Jul 2025 23:10:28 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+04:40:29.465 [main] INFO  com.api.listners.Testlistners - Passed !!addAddressToUserTest
+04:40:29.469 [main] INFO  com.api.listners.Testlistners - Started !!updateProfileTest
+04:40:29.469 [main] INFO  com.api.listners.Testlistners - Description
+04:40:29.490 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+04:40:29.491 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2012","password":"nigam1234"}
+04:40:29.491 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+04:40:29.678 [main] INFO  com.api.filters.LoggingFilter - 200
+04:40:29.678 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@7c9bb034
+04:40:29.679 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 08 Jul 2025 23:10:28 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+04:40:29.693 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+04:40:29.694 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+04:40:29.694 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTIiLCJpYXQiOjE3NTIwMTYyMjgsImV4cCI6MTc1MjAxOTgyOH0.j9z7E1XYmTQyPV4G3UuMYLIlCdl5zn1Mib9dbYMi_1s
+Accept=*/*
+04:40:29.826 [main] INFO  com.api.filters.LoggingFilter - 200
+04:40:29.828 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@48394ecb
+04:40:29.828 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 08 Jul 2025 23:10:28 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+04:40:29.887 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+04:40:29.888 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"firstName":"nigam2012","lastName":"anand","email":"nigam2012@gmail.com","mobileNumber":"9999999999"}
+04:40:29.889 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTIiLCJpYXQiOjE3NTIwMTYyMjgsImV4cCI6MTc1MjAxOTgyOH0.j9z7E1XYmTQyPV4G3UuMYLIlCdl5zn1Mib9dbYMi_1s
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTIiLCJpYXQiOjE3NTIwMTYyMjgsImV4cCI6MTc1MjAxOTgyOH0.j9z7E1XYmTQyPV4G3UuMYLIlCdl5zn1Mib9dbYMi_1s
+Content-Type=application/json
+04:40:30.042 [main] INFO  com.api.filters.LoggingFilter - 200
+04:40:30.042 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@1448a65b
+04:40:30.043 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 08 Jul 2025 23:10:29 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+04:40:30.050 [main] INFO  com.api.listners.Testlistners - Passed !!updateProfileTest
+04:40:30.054 [main] INFO  com.api.listners.Testlistners - Started !!GetProfileInfoTest
+04:40:30.054 [main] INFO  com.api.listners.Testlistners - Description
+04:40:30.073 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+04:40:30.074 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"nigam2012","password":"nigam1234"}
+04:40:30.074 [main] INFO  com.api.filters.LoggingFilter - Accept=*/*
+Content-Type=application/json
+04:40:30.270 [main] INFO  com.api.filters.LoggingFilter - 200
+04:40:30.270 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@1b586c48
+04:40:30.270 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 08 Jul 2025 23:10:29 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+04:40:30.288 [main] INFO  com.api.filters.LoggingFilter - http://64.227.160.186:8080
+04:40:30.288 [main] INFO  com.api.filters.LoggingFilter - Request Payloadnull
+04:40:30.289 [main] INFO  com.api.filters.LoggingFilter - Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJuaWdhbTIwMTIiLCJpYXQiOjE3NTIwMTYyMjksImV4cCI6MTc1MjAxOTgyOX0.TFww2SsQ6CcFvqDsm5I-UzE-S6tz9Me9DfzIeapzN-c
+Accept=*/*
+04:40:30.438 [main] INFO  com.api.filters.LoggingFilter - 200
+04:40:30.438 [main] INFO  com.api.filters.LoggingFilter - Response Payloadio.restassured.internal.RestAssuredResponseImpl@59c88354
+04:40:30.438 [main] INFO  com.api.filters.LoggingFilter - Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 08 Jul 2025 23:10:29 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+04:40:30.445 [main] INFO  com.api.listners.Testlistners - Passed !!GetProfileInfoTest
+04:40:30.499 [main] INFO  com.api.listners.Testlistners - Test Suite Completed !!
